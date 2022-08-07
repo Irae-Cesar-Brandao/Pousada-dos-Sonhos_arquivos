@@ -1,0 +1,262 @@
+/* CSS DE DEFINIÇÃO PARA USO HTML:5
+/* Criado por: IRAÊ CÉSAR BRANDÃO
+   Luck Way Informática
+   https://luckwayinformatica.business.site
+   Data criação: 26/06/2022*/
+
+
+
+/*MENU DE NAVEGAÇÃ0*/
+.navbar {
+  padding: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar li {
+  position: relative;
+}
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2b3c6f;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #006fbe;
+}
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+}
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: none;
+  font-weight: 500;
+}
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+  color: #006fbe;
+}
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+.navbar .dropdown .dropdown:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}
+/* FIM BARRA DE NAVEGAÇÃO*/
+
+
+/* APLICANDO OS EFEITOS NAS FOTOS DO HOME E ETC */
+/*POSIÇÕES DOS EFEITOS DOS TEXTOS NAS IMAGENS */
+.ih-item {
+  position: relative;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item,
+.ih-item * {
+  border: red;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* DEFININDO O TAMANHO DAS IMAGENS DA TRANSIÇÃO DOS TEXTOS*/
+.ih-item a {
+  color: #333;
+}
+.ih-item a:hover {
+  text-decoration: none;
+}
+
+/* DEFINDO OS TAMANHOS DAS IMAGENS DO SITE EM TODOS OS LOCAIS DO SISTE*/
+.ih-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+}
+
+
+/* EFEITO E POSICIONAMENTO DOS TEXTOS E IMAGENS ENTRADA*/
+.ih-item.square .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* EFEITO DE MOVIMENTO TRANSIÇÃO DOS TEXTOS DE ENTRADA E OCULTAÇÃO*/
+.ih-item.square.effect6 {
+  overflow: hidden;
+}
+
+
+/* EFEITO DE TRANSIÇÃO DO FUNDO TRANSPARÊNCIA ENTRADA DOS TEXTOS DAS IMAGENS */
+.ih-item.square.effect6.colored .info h3 {
+  background: rgba(0, 0, 0, 0.0);
+}
+
+/* TAMANHO E DEFINIÇÕES DOS TEXTOS TAMANHOS DOS EFEITOS*/
+.ih-item.square.effect6 .info h3 {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 110px;
+  font-weight:300;
+  padding: 0;
+  background: #000000;
+  margin: 10px 0 0 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.ih-item.square.effect6 a:hover .img {
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
+  -ms-transform: scale(1.12);
+  -o-transform: scale(1.12);
+  transform: scale(1.12);
+}
+.ih-item.square.effect6 a:hover .info {
+  visibility:inherit;
+  opacity: 5;
+}
+
+.ih-item.square.effect6.from_top_and_bottom .info h3 {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.ih-item.square.effect6.from_top_and_bottom .info p {
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+/*EFEITO DE TRANSIÇÃO DE ENTRADA DE TEXTO SOBRE AS IMAGENS E EFEITOS DE ANIMAÇÃO */
+.ih-item.square.effect6.from_top_and_bottom a:hover .info h3,
+.ih-item.square.effect6.from_top_and_bottom a:hover .info p {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* FOTER */
+.footer a {
+  color: #ababab;
+  margin-right: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* FINAL DA EDIÇÃO DO FOOTER */
+
+
+/* MENUS E SUBMENUS -  UTILIZANDO !IMPORTANT PARA FORÇAR O 
+         USO DO RECURSO EM PRIORIDADE NO CSS*/
+/* IMAGEM EM PÁGINA INTERNA */
+@media (max-width:992px){
+.img-pag-int {
+  margin: 10px 0 0 !important;
+  padding: 0 !important;
+}}
+
+@media (max-width:992px){
+.text-pag-int {
+  padding: 15px 15px 15px 30px !important;
+}}
+
+/* TEXTOS E TITULOS DAS TABELAS - FONTE E COR VERDE */
+.titulo-tab {
+  font-size: 16px; 
+  font-weight: 300; 
+  color: #019a25;
+}
+
+/* SUBTITULOS DAS TABELAS - COOR CINZA E TAMANHO DE FONTE*/
+.subtitulo-tab {
+   font-size:14px; font-weight: 300; color:#a1a1a1;
+   font-size:14px; font-weight: 300; color:#a1a1a1;
+   font-size:14px; font-weight: 300; color:#a1a1a1;
+   font-size:14px; font-weight: 300; color:#a1a1a1;
+
+}
+
+/*UTILIZANDO !IMPORTANT PARA FORÇAR A COR E O USO DO RECURSO EM PRIORIDADE NO CSS*/
+.tipo-tab {
+   font-weight: 300; color:#019a25 !important;
+}
+
+/* DEFININDO A COR DA SEGUNDA COLUNA DA TABELA*/
+.valor-tab{
+  font-weight: 300; color:#9a9a9a;
+}
+
+/* COLORINDO (-TEX) TEXTO DA SUSTENTATBILIDADE */
+.-text {color:#9baf17;}
+ 
+
+/* FINAL DO CÓDIGO */
+
+
