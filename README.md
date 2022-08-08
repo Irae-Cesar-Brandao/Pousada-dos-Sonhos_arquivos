@@ -29,7 +29,7 @@ POUSADA SONHO MEU
   <h4>  - O presente projeto demonstra a usabilidade de linguagens de programação e espelha um SITE DE NAVEGAÇÃO de uma POUSADA/HOTEL figurativa.  <h4>
 
 
-  <h1> Acesso ao Projeto:< h1>
+  <h1> Acesso ao Projeto:<h1>
       <h4>- O projeto é acessível tanto pelo seu elaborador  e administrador (autonomo de 01 Aluno) e pelo Professor em compartilhamento do acesso ao repositório e aos resultados do projeto.<h4>
 
   <h1> Tecnologias utilizadas:<h1>
@@ -74,14 +74,14 @@ MY DREAM INN
       <h4>- Project developed in an estimated period of 30 days with all code editing and research on programming sites and laboratory application (code editing) by the student<h4>
 
  <h1> Features and Application Demo: <h1>
-  <h4> - This project demonstrates the usability of programming languages ​​and mirrors a NAVIGATION SITE of a figurative POUSADA/HOTEL. <h4>
+  <h4> - This project demonstrates the usability of programming languages and mirrors a NAVIGATION SITE of a figurative POUSADA/HOTEL. <h4>
 
 
-  <h1> Project Access:< h1>
+  <h1> Project Access:<h1>
       <h4>- The project is accessible both by its creator and administrator (autonomous of 01 Student) and by the Professor sharing access to the repository and project results.<h4>
 
   <h1> Technologies used:<h1>
-          <h4>- Project developed in WINDOWS environment, using programming languages ​​such as HTML and CSS as well as image editing such as INKSCAPE, VisualStudioCode (Visual Code), Internet browsers such as MOZILLA FIREFOX, GOOGLE CHROME and MISCROSFT EDGE with WEB tests with posting to the student's GIT repository.
+          <h4>- Project developed in WINDOWS environment, using programming languages such as HTML and CSS as well as image editing such as INKSCAPE, VisualStudioCode (Visual Code), Internet browsers such as MOZILLA FIREFOX, GOOGLE CHROME and MISCROSFT EDGE with WEB tests with posting to the student's GIT repository.
             <h4>
 
  <h1> Contributing Persons:<h1>
