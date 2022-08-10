@@ -85,7 +85,7 @@ MY DREAM INN
             <h4>
 
  <h1> Contributing Persons:<h1>
-  <h4> - Student IRAÊ CÉSAR BRANDÃO - IT Manager and WEB Developer and Prof. JOAQUIM MARTIINS SCAVONE - Professor of Programming Languages ​​at IFTO (Federal Institute of Tocantins) during the WEB PROGRAMMER COURSE 2022.<h4>
+  <h4> - Student IRAÊ CÉSAR BRANDÃO - IT Manager and WEB Developer, during the WEB PROGRAMMER COURSE 2022.<h4>
 
  <h1> Project Developers: <h1>
     <h4> - IRAÊ CÉSAR BRANDÃO - Student of the WEB PROGRAMMER 2022 Course (Adm. https://github.com Irae-Cesar-Brandao) <h4>
