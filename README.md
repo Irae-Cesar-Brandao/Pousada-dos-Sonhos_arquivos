@@ -79,7 +79,7 @@ MY DREAM INN
       <h4>- The project is accessible both by its creator and administrator (autonomous of 01 Student) and by the Professor sharing access to the repository and project results.<h4>
 
   <h1> Technologies used:<h1>
-          <h4>- Project developed in WINDOWS environment, using programming languages such as HTML and CSS as well as image editing such as INKSCAPE, VisualStudioCode (Visual Code), Internet browsers such as MOZILLA FIREFOX, GOOGLE CHROME and MISCROSFT EDGE with WEB tests with posting to the student's GIT repository.
+          <h4>- Project developed in WINDOWS environment, using programming languages such as HTML and CSS as well as image editing such as INKSCAPE, VisualStudioCode (Visual Code), Internet browsers such as MOZILLA FIREFOX, GOOGLE CHROME and MICROSOFT EDGE with WEB tests with posting to the student's GIT repository.
             <h4>
 
  <h1> Contributing Persons:<h1>
